@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Gregory Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .bg-primary {
+            background-color: #007bff !important;
+        }
+        .text-primary {
+            color: #007bff !important;
+        }
+        .portfolio-item, .experience-item, .education-item {
+            border-left: 4px solid #28a745;
+        }
+        .skills-list li {
+            background: #17a2b8;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-primary text-white p-3 d-flex justify-content-between align-items-center">
+        <h1 class="m-0">AG</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link text-white">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link text-white">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills & Tools</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link text-white">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <section id="about" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">About Me</h2>
+            <p>Hello! I'm Aaron Gregory, a Digital Media Executive specializing in UI/UX. With a strong background in mathematics and hands-on experience in design, development, and branding, I excel at creating user-centered digital experiences. I'm passionate about blending creativity with technical expertise to deliver high-quality assets and solutions.</p>
+        </section>
+        <section id="experience" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">Experience</h2>
+            <div class="experience-item card p-3 mb-3">
+                <h3 class="card-title">Ochiba Business Solutions - Digital Media Executive</h3>
+                <p class="card-subtitle text-muted"><em>July 2024 - Present</em></p>
+                <ul class="list-unstyled">
+                    <li>Utilizing proficiency in Adobe Creative Suite (Illustrator, InDesign, Photoshop, After Effects, Premiere Pro, XD, and Audition) to create high-quality assets.</li>
+                    <li>Demonstrating expertise in Figma and leveraging Figma plugins for efficient design workflows.</li>
+                    <li>Leading UI/UX initiatives, including wireframing, prototyping, and developing high-fidelity mockups for several web apps, from concept to prototype, in cross-functional teams.</li>
+                    <li>Developing user experiences using front-end technologies: HTML, CSS, and JavaScript.</li>
+                    <li>Managing branding efforts, including rebranding company assets and generating up-to-date brand guidelines.</li>
+                </ul>
+            </div>
+            <div class="experience-item card p-3 mb-3">
+                <h3 class="card-title">The Spine Corporation - 3D CAD/CAM Designer</h3>
+                <p class="card-subtitle text-muted"><em>January 2024 - June 2024</em></p>
+                <ul class="list-unstyled">
+                    <li>Designed internal and external communications and marketing materials, including branding work.</li>
+                    <li>Produced 3D CAD designs of braces and managed approval stages before sending to manufacture.</li>
+                    <li>Led quality assurance and control for signing off on orthotic devices.</li>
+                    <li>Performed data analysis, 3D modeling, and X-ray markings.</li>
+                    <li>Assisted in building and setting up an industrial 3D printer.</li>
+                </ul>
+            </div>
+            <div class="experience-item card p-3 mb-3">
+                <h3 class="card-title">AECOM - Graduate Transport Planner</h3>
+                <p class="card-subtitle text-muted"><em>October 2022 - January 2023</em></p>
+                <ul class="list-unstyled">
+                    <li>Conducted Transport Assessments (TA) for local government authorities such as Derbyshire County Council, National Highways, and Nottinghamshire County Council.</li>
+                    <li>Held consultation meetings with members of the public to address concerns on proposed modifications to the road network.</li>
+                    <li>Designed report graphics and instructive technical maps.</li>
+                    <li>Performed data analysis for recommended activity schedules focused on health benefits.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="education" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">Education</h2>
+            <div class="education-item card p-3 mb-3">
+                <h3 class="card-title">University of Sheffield - MSc Mathematics</h3>
+                <p class="card-subtitle text-muted"><em>September 2021 - November 2023</em></p>
+                <ul class="list-unstyled">
+                    <li>Completed advanced theoretical modules including Functional Analysis, Metric Spaces, Algebraic Topology, Bayesian Statistics, Measure Theory, Commutative Algebra, Galois Theory, Field Theory, and Probability.</li>
+                </ul>
+            </div>
+            <div class="education-item card p-3 mb-3">
+                <h3 class="card-title">Sheffield Hallam University - First-Class Mathematics (Hons) Degree</h3>
+                <p class="card-subtitle text-muted"><em>September 2018 - July 2021</em></p>
+                <ul class="list-unstyled">
+                    <li>Dissertation in Complex Analysis.</li>
+                    <li>President of the SHU Mathematics Society.</li>
+                    <li>Course Representative for two years.</li>
+                    <li>Graduated with First-Class Honours.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">Skills & Tools</h2>
+            <h4 class="mt-3">Skills</h4>
+            <ul class="skills-list d-flex flex-wrap">
+                <li>Branding</li>
+                <li>Website Design & Modifications</li>
+                <li>Technically Minded</li>
+                <li>Interaction Design</li>
+                <li>Visual Design</li>
+                <li>Asset Creation</li>
+                <li>Programming</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Illustrations</li>
+                <li>Communication</li>
+                <li>Collaboration</li>
+                <li>User Testing</li>
+                <li>Adaptability</li>
+                <li>Continuous Learning</li>
+            </ul>
+            <h4 class="mt-3">Tools</h4>
+            <ul class="skills-list d-flex flex-wrap">
+                <li>Sketch</li>
+                <li>Figma</li>
+                <li>FigJam</li>
+                <li>Terminal</li>
+                <li>VS Code</li>
+                <li>Adobe Creative Suite</li>
+                <li>Balsamiq</li>
+                <li>Webflow</li>
+                <li>User Testing</li>
+                <li>WordPress</li>
+            </ul>
+        </section>
+        <section id="portfolio" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">Portfolio</h2>
+            <div class="portfolio-item card p-3 mb-3">
+                <h3 class="card-title">Personal Portfolio Website</h3>
+                <img src="https://via.placeholder.com/400x200" alt="Personal Portfolio Screenshot" class="card-img-top">
+                <p class="card-text">A responsive portfolio site showcasing my skills, projects, and professional journey, built with HTML, CSS, and Bootstrap.</p>
+            </div>
+            <div class="portfolio-item card p-3 mb-3">
+                <h3 class="card-title">Tetris Game</h3>
+                <img src="https://via.placeholder.com/400x200" alt="Tetris Game Screenshot" class="card-img-top">
+                <p class="card-text">A fun and interactive Tetris game developed using p5.js, demonstrating my ability to create engaging browser-based applications.</p>
+            </div>
+            <div class="portfolio-item card p-3 mb-3">
+                <h3 class="card-title">3D CAD Design Project</h3>
+                <img src="https://via.placeholder.com/400x200" alt="3D CAD Design Screenshot" class="card-img-top">
+                <p class="card-text">A collection of 3D CAD designs for orthotic devices, created during my time at The Spine Corporation, highlighting my design and modeling skills.</p>
+            </div>
+        </section>
+        <section id="contact" class="p-4 mb-4">
+            <h2 class="text-primary border-bottom border-primary pb-2">Contact</h2>
+            <p>Email: <a href="mailto:aaronsgregory1309@icloud.com">aaronsgregory1309@icloud.com</a> - Feel free to reach out for any inquiries or collaboration opportunities. I'm available to discuss potential projects and how I can contribute to your success.</p>
+            <p>Phone: +44 762 169 912 - You can call or text me during business hours to talk about your needs or schedule a meeting.</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/aarongregory">linkedin.com/in/aarongregory</a> - Connect with me to stay updated on my professional journey and network with other professionals in the field.</p>
+            <p>Address: 123 Developer Lane, Tech City, TC 45678 - If you'd prefer an in-person meeting, let me know, and we can arrange something convenient.</p>
+        </section>
+    </div>
+    <footer class="bg-primary text-white p-2">
+        <p>&copy; 2025 Aaron Gregory. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
